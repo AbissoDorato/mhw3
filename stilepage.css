@@ -1,0 +1,253 @@
+#links a{
+  cursor:pointer;
+  padding: 10px 15px;
+  border: 2px solid white;
+  color: black;
+  border-radius: 100px;
+  background-color: rgba(240, 154, 176, 0.948);
+  z-index: 1;
+}
+
+#links a:hover{
+  background-color: rgb(172, 168, 237);
+  color: black;
+}
+.bot{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  
+}
+body{
+  color: rgba(26,26,26 ,0.8);
+  font-family: 'Alkatra' ,serif;
+  margin: 0px;
+  padding: 0;
+}
+
+
+div.articolo article{
+  margin-bottom: 20px;
+  font-family: 'Lora','Open sans',Helvetica;
+}
+
+div.contenuto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 66vw;
+  
+}
+
+div.contenuto img{
+  width: 50%;
+}
+
+div.desc{
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  margin-bottom: 60px;
+}
+
+  #immagine{
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+}
+
+#immagine img{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  position: absolute;
+  top: -50px;
+  
+}
+
+#links{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+#links a{
+  text-decoration: none;
+  cursor:pointer;
+  padding: 10px 15px;
+  border: 2px solid white;
+  border-radius: 100px;
+  background-color: antiquewhite;
+}
+
+.titolo h1{
+  margin:0;
+}
+
+.titolo h3{
+  margin: 0px 0px 20px 0px;
+}
+
+
+
+div.articolo a{
+  text-decoration: none;
+}
+
+
+.main{
+  display: flex;
+  width: 66vw;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+}
+
+div.quote img{
+  margin-bottom: 120px;
+  size: 120%;
+}
+
+div.quote p{
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 1000;
+  font-family: 'Tangerine','Lora',sans-serif;
+  color:inherit;
+  font-style: normal;
+  line-height: normal;
+}
+
+footer{
+  background-color: rgb(31, 31,31);
+  color:rgba(255,255,255,0.8);
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+footer img{
+  height: 150px;
+  width: 100px;
+  object-fit: contain;
+  margin:0;
+  border:0;
+}
+
+
+.ini h1 {
+  font-size: 40px;
+  font-weight: 300px;
+  max-width: 780px;
+  font-family: 'Alkatra';
+  font-weight: normal;
+  font-weight: normal;
+  text-align: center;
+  z-index: 1;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+
+header{
+  color: white;
+  background-size: cover;
+  background-image: url(https://wallpapers.com/images/featured/oaax18kaapkokaro.jpg);
+  background-position: center;
+  height: 300px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+
+}
+
+
+@media (max-width :500px){
+  
+  div.quote img{
+    width: 100%;
+    justify-content: center;
+  }
+
+
+  section ol{
+    margin:0px;
+    padding:0;
+    font-size: 20px;
+  }
+
+  footer img{
+    width: 90px;
+    height: 130px;
+  }
+
+  #links a{
+    color: black;
+    border: solid black ;
+  }
+
+}
+
+section{
+  display: flex;
+  justify-content: center;
+}
+
+#overlay{
+  background-color: rgba(0,0,0,0.3);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  
+}
+
+section ol{
+  padding-left: 40px;
+  margin: 0;
+
+}
+
+li::marker{
+  font-size: 25px;
+  text-align: left;
+ 
+}
+
+.cont{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  margin: 10px;
+  
+}
+
+#tessera{
+  margin-bottom: 200px;
+  justify-content: center;;
+}
+
+
+
+.video a{
+background-color: none !important;
+margin-left: 10px;
+justify-content: center;
+}
+
+.video {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.video img{
+  margin: 5px;
+  width: 60%;
+}
